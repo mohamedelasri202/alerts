@@ -1,0 +1,51 @@
+
+body {
+    margin:0;
+    padding: 0;;
+}
+.alert{
+    display: flex;
+    justify-content: flex-start;
+    background-color:beige;
+    height:80vh;
+    width:100vw;
+    
+}
+ button{
+    background:green;
+    width:100px;
+    height:40px;
+    border:none;
+    border-radius:5px;
+    color: white;
+    font-weight:bold;
+    margin-top:40px;
+    margin-left: 50px;
+} 
+.salert{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    height: 30vh;
+    width: 50vh;
+    background-color:white;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+ 
+.icon {
+    color: green;
+    font-size: 80px;
+    opacity: 50%;
+}
+.salert button {
+    background-color: blue;
+    margin-right: 60px;
+}
+.salert p{
+    font-size: 23px;
+}
